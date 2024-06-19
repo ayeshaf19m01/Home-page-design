@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100vh; 
+	background-color: rgb(244, 245, 246); 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Position the center image */
+.center-image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Position the top-left icon */
+.top-left-icon {
+    position: absolute;
+    top: 30px; 
+    left: 300px;
+    
+}
+
+.top-right-icon {
+    position: absolute;
+    top: 30px; 
+    right: 300px;
+}
+ #Rectangle10 
+{ 
+	 left: 250px; 
+	 top: 350px; 
+	 position: absolute; 
+	 width: 1029px;
+	 height: 307px;
+	 z-index:7;
+} 
+ #Rectangle10copy2 
+{ 
+	 left: 558px; 
+	 top: 546px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 102px;
+	 z-index:9;
+} 
+
+ #Rectangle10copy3 
+{ 
+	 left: 935px; 
+	 top: 546px; 
+	 position: absolute; 
+	 width: 4px;
+	 height: 102px;
+	 z-index:10;
+} 
+
+ #layer_65 
+{ 
+	 left: 379px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 82px;
+	 height: 49px;
+	 z-index:11;
+} 
+
+ #Searches 
+{ 
+	 left: 352px; 
+	 top: 623px; 
+	 position: absolute; 
+	 width: 136px;
+	 height: 27px;
+	 z-index:12;
+} 
+ #addbutton 
+{ 
+	 left: 649px; 
+	 top: 507px; 
+	 position: absolute; 
+	 width: 145px;
+	 height: 146px;
+	 z-index:14;
+	
+} 
+
+
+
+ #layer_856 
+{ 
+	 left: 1050px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 125px;
+	 height: 49px;
+	 z-index:16;
+} 
+
+ #Sessions 
+{ 
+	 left: 1045px; 
+	 top: 613px; 
+	 position: absolute; 
+	 width: 130px;
+	 height: 27px;
+	 z-index:17;
+} 
+#AddYourPhoto 
+{ 
+	 left: 516px; 
+	 top: 400px; 
+	 position: absolute; 
+	 width: 515px;
+	 height: 57px;
+	 z-index:18;
+} 
+
+ #Ellipse1 
+{ 
+	 left: 1106px; 
+	 top: 375px; 
+	 position: absolute; 
+	 width: 98px;
+	 height: 98px;
+	 z-index:19;
+} 
+
+ #Forma1 
+{ 
+	 left: 1107px; 
+	 top: 398px; 
+	 position: absolute; 
+	 width: 50px;
+	 height: 53px;
+	 z-index:20;
+} 
+  
+.outer-div {
+	width: 75%;
+	margin: 0 auto;
+	background-color:white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.content-div {
+	min-width: 100%;
+	display: flex;
+	color: white;
+}
+
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	border-radius: 50%;
+	border:1px solid red ;
+	padding: 8px;
+	 }
+	 .img{
+		display: flex;
+		justify-content: center;
+		width: 30%;
+	 }
+.text-div {
+	width: 70%;
+	
+	
+	}
+.image-row {
+	width: 99%;
+	display: flex;
+	justify-content: space-around;
+	margin: 5px;
+}
+			
+.image-item {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 200px;
+	justify-content: center;    
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	align-items: center;
+	
+}
+.message{
+	width: 75%;
+	margin: 0 auto;
+	background-color:white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	margin-top: 20px;
+	
+}
+.text{
+	width: 50%;
+	padding-left: 30px;
+}
+.desc{
+	width: 75%;
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.car{
+	width: 95%;
+	border-radius: 20px;
+	display: flex;
+	color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+	margin-left: 30px;	
+}
+.imag{
+	display: flex;
+	justify-content: center;
+	width: 23%;
+}
+.imag-container{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.text_div{
+	width: 70%;
+}
+.btn {
+	position: absolute;  
+	top: 60%;
+	left: 50%;
+	background: linear-gradient(to right, #ff0000, #bd9d4d);
+	transform: translate(-50%, -50%);
+	color: rgb(246, 242, 242);
+	font-size: 26px;
+	padding: 10px 20px;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 70px;
+	text-align: center;
+	
+}
+
+.btn i {
+	font-size: 24px; /* Adjust the size of the icon */
+	margin-right: auto; /* Adjust the margin as needed */
+}
